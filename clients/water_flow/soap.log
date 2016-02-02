@@ -1,0 +1,12 @@
+_________________________________ Tue Apr 28 13:38:36 2015 REQUEST:
+<SOAP-ENV:Envelope xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ZSI="http://www.zolera.com/schemas/ZSI/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><SOAP-ENV:Header></SOAP-ENV:Header><SOAP-ENV:Body xmlns:ns1="http://opcfoundation.org/webservices/XMLDA/1.0/"><ns1:Write ReturnValuesOnReply="false"><ns1:Options ClientRequestHandle="ZSI_JrdTn3WI9h_Write" ReturnErrorText="true" ReturnItemName="true" ReturnItemPath="true"></ns1:Options><ns1:ItemList><ns1:Items ClientItemHandle="ZSI_JrdTn3WI9h_WriteItem_0" ItemName="vat"><ns1:Value id="o18d8e78" xsi:type="xsd:int">95</ns1:Value><ns1:Quality></ns1:Quality></ns1:Items></ns1:ItemList></ns1:Write></SOAP-ENV:Body></SOAP-ENV:Envelope>
+_________________________________ Tue Apr 28 13:38:36 2015 RESPONSE:
+200
+OK
+-------
+Date: Tue, 28 Apr 2015 18:38:36 GMT
+Content-Length: 794
+Content-Type: text/xml
+Server: Twisted 2.1.0
+
+<SOAP-ENV:Envelope xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ZSI="http://www.zolera.com/schemas/ZSI/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><SOAP-ENV:Header></SOAP-ENV:Header><SOAP-ENV:Body xmlns:ns1="http://opcfoundation.org/webservices/XMLDA/1.0/"><ns1:WriteResponse><ns1:WriteResult ClientRequestHandle="ZSI_JrdTn3WI9h_Write" RcvTime="2015-04-28T13:38:36.001Z" ReplyTime="2015-04-28T13:38:36.001Z" ServerState="running"></ns1:WriteResult><ns1:RItemList><ns1:Items ClientItemHandle="ZSI_JrdTn3WI9h_WriteItem_0" ItemName="vat" ItemPath=""><ns1:Quality></ns1:Quality></ns1:Items></ns1:RItemList></ns1:WriteResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

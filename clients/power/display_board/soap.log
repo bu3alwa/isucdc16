@@ -1,0 +1,134 @@
+_________________________________ Wed May 27 14:27:05 2015 REQUEST:
+<SOAP-ENV:Envelope xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ZSI="http://www.zolera.com/schemas/ZSI/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><SOAP-ENV:Header></SOAP-ENV:Header><SOAP-ENV:Body xmlns:ns1="http://opcfoundation.org/webservices/XMLDA/1.0/"><ns1:Write ReturnValuesOnReply="false"><ns1:Options ClientRequestHandle="ZSI_EuLzohFCrc_Write" LocaleID="en-us" ReturnErrorText="true" ReturnItemName="true" ReturnItemPath="true"></ns1:Options><ns1:ItemList><ns1:Items ClientItemHandle="ZSI_EuLzohFCrc_WriteItem_0" ItemName="a"><ns1:Value id="o7f6347aa5fd0" xsi:type="xsd:string">1</ns1:Value><ns1:Quality></ns1:Quality></ns1:Items></ns1:ItemList></ns1:Write></SOAP-ENV:Body></SOAP-ENV:Envelope>
+_________________________________ Wed May 27 14:27:05 2015 RESPONSE:
+200
+OK
+-------
+Server: Webduino/1.7
+Access-Control-Allow-Origin: *
+Content-Type: text/xml
+
+<SOAP-ENV:Envelope xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ZSI="http://www.zolera.com/schemas/ZSI/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><SOAP-ENV:Header></SOAP-ENV:Header><SOAP-ENV:Body xmlns:ns1="http://opcfoundation.org/webservices/XMLDA/1.0/"><ns1:WriteResponse><ns1:WriteResult ClientRequestHandle="ZSI_MWKaPWbd8M_Write" RcvTime="2015-04-07T13:36:29.001Z" ReplyTime="2015-04-07T13:36:29.001Z" ServerState="running"></ns1:WriteResult><ns1:ItemList><ns1:Items ClientItemHandle="ZSI_MWKaPWbd8M_WriteItem_0" ItemName="a" ItemPath=""><ns1:Quality></ns1:Quality></ns1:Items></ns1:ItemList></ns1:WriteResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>
+_________________________________ Wed May 27 14:27:05 2015 REQUEST:
+<SOAP-ENV:Envelope xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ZSI="http://www.zolera.com/schemas/ZSI/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><SOAP-ENV:Header></SOAP-ENV:Header><SOAP-ENV:Body xmlns:ns1="http://opcfoundation.org/webservices/XMLDA/1.0/"><ns1:Write ReturnValuesOnReply="false"><ns1:Options ClientRequestHandle="ZSI_EuLzohFCrc_Write" LocaleID="en-us" ReturnErrorText="true" ReturnItemName="true" ReturnItemPath="true"></ns1:Options><ns1:ItemList><ns1:Items ClientItemHandle="ZSI_EuLzohFCrc_WriteItem_0" ItemName="b"><ns1:Value id="o7f6347aa5fd0" xsi:type="xsd:string">1</ns1:Value><ns1:Quality></ns1:Quality></ns1:Items></ns1:ItemList></ns1:Write></SOAP-ENV:Body></SOAP-ENV:Envelope>
+_________________________________ Wed May 27 14:27:06 2015 RESPONSE:
+200
+OK
+-------
+Server: Webduino/1.7
+Access-Control-Allow-Origin: *
+Content-Type: text/xml
+
+<SOAP-ENV:Envelope xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ZSI="http://www.zolera.com/schemas/ZSI/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><SOAP-ENV:Header></SOAP-ENV:Header><SOAP-ENV:Body xmlns:ns1="http://opcfoundation.org/webservices/XMLDA/1.0/"><ns1:WriteResponse><ns1:WriteResult ClientRequestHandle="ZSI_MWKaPWbd8M_Write" RcvTime="2015-04-07T13:36:29.001Z" ReplyTime="2015-04-07T13:36:29.001Z" ServerState="running"></ns1:WriteResult><ns1:ItemList><ns1:Items ClientItemHandle="ZSI_MWKaPWbd8M_WriteItem_0" ItemName="b" ItemPath=""><ns1:Quality></ns1:Quality></ns1:Items></ns1:ItemList></ns1:WriteResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>
+_________________________________ Wed May 27 14:27:06 2015 REQUEST:
+<SOAP-ENV:Envelope xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ZSI="http://www.zolera.com/schemas/ZSI/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><SOAP-ENV:Header></SOAP-Etance"><SOAP-ENV:Header></SOAP-ENV:Header><SOAP-ENV:Body xmlns:ns1="http://opcfoundation.org/webservices/XMLDA/1.0/"><ns1:Read><ns1:Options ClientRequestHandle="ZSI_Q6lJHACgRq_Read" ReturnErrorText="true" ReturnItemName="true" ReturnItemPath="true"></ns1:Options><ns1:ItemList><ns1:Items ClientItemHandle="ZSI_Q6lJHACgRq_ReadItem_0" ItemName="breaker"></ns1:Items></ns1:ItemList></ns1:Read></SOAP-ENV:Body></SOAP-ENV:Envelope>
+_________________________________ Wed May 27 14:27:04 2015 RESPONSE:
+200
+OK
+-------
+Date: Wed, 27 May 2015 19:27:04 GMT
+Content-Length: 903
+Content-Type: text/xml
+Server: Twisted 2.1.0
+
+<SOAP-ENV:Envelope xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ZSI="http://www.zolera.com/schemas/ZSI/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><SOAP-ENV:Header></SOAP-ENV:Header><SOAP-ENV:Body xmlns:ns1="http://opcfoundation.org/webservices/XMLDA/1.0/"><ns1:ReadResponse><ns1:ReadResult ClientRequestHandle="ZSI_Q6lJHACgRq_Read" RcvTime="2015-05-27T14:27:04.002Z" ReplyTime="2015-05-27T14:27:04.002Z" ServerState="running"></ns1:ReadResult><ns1:RItemList><ns1:Items ClientItemHandle="ZSI_Q6lJHACgRq_ReadItem_0" ItemName="breaker" ItemPath=""><ns1:Value id="o23337b8" xsi:type="xsd:int">1</ns1:Value><ns1:Quality LimitField="none" QualityField="good" VendorField="0"></ns1:Quality></ns1:Items></ns1:RItemList></ns1:ReadResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>
+_________________________________ Wed May 27 14:27:04 2015 REQUEST:
+<SOAP-ENV:Envelope xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ZSI="http://www.zolera.com/schemas/ZSI/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><SOAP-ENV:Header></SOAP-ENV:Header><SOAP-ENV:Body xmlns:ns1="http://opcfoundation.org/webservices/XMLDA/1.0/"><ns1:Read><ns1:Options ClientRequestHandle="ZSI_Q6lJHACgRq_Read" ReturnErrorText="true" ReturnItemName="true" ReturnItemPath="true"></ns1:Options><ns1:ItemList><ns1:Items ClientItemHandle="ZSI_Q6lJHACgRq_ReadItem_0" ItemName="flow"></ns1:Items></ns1:ItemList></ns1:Read></SOAP-ENV:Body></SOAP-ENV:Envelope>
+_________________________________ Wed May 27 14:27:05 2015 RESPONSE:
+200
+OK
+-------
+Date: Wed, 27 May 2015 19:27:04 GMT
+Content-Length: 911
+Content-Type: text/xml
+Server: Twisted 2.1.0
+
+<SOAP-ENV:Envelope xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ZSI="http://www.zolera.com/schemas/ZSI/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><SOAP-ENV:Header></SOAP-ENV:Header><SOAP-ENV:Body xmlns:ns1="http://opcfoundation.org/webservices/XMLDA/1.0/"><ns1:ReadResponse><ns1:ReadResult ClientRequestHandle="ZSI_Q6lJHACgRq_Read" RcvTime="2015-05-27T14:27:04.002Z" ReplyTime="2015-05-27T14:27:05.002Z" ServerState="running"></ns1:ReadResult><ns1:RItemList><ns1:Items ClientItemHandle="ZSI_Q6lJHACgRq_ReadItem_0" ItemName="flow" ItemPath=""><ns1:Value id="o2f569f8" xsi:type="xsd:float">100.000000</ns1:Value><ns1:Quality LimitField="none" QualityField="good" VendorField="0"></ns1:Quality></ns1:Items></ns1:RItemList></ns1:ReadResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>
+_________________________________ Wed May 27 14:27:12 2015 REQUEST:
+<SOAP-ENV:Envelope xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ZSI="http://www.zolera.com/schemas/ZSI/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><SOAP-ENV:Header></SOAP-ENV:Header><SOAP-ENV:Body xmlns:ns1="http://opcfoundation.org/webservices/XMLDA/1.0/"><ns1:Read><ns1:Options ClientRequestHandle="ZSI_Q6lJHACgRq_Read" ReturnErrorText="true" ReturnItemName="true" ReturnItemPath="true"></ns1:Options><ns1:ItemList><ns1:Items ClientItemHandle="ZSI_Q6lJHACgRq_ReadItem_0" ItemName="generation"></ns1:"o7f6347aa5fd0" xsi:type="xsd:string">1</ns1:Value><ns1:Quality></ns1:Quality></ns1:Items></ns1:ItemList></ns1:Write></SOAP-ENV:Body></SOAP-ENV:Envelope>
+_________________________________ Wed May 27 14:27:07 2015 RESPONSE:
+200
+OK
+-------
+Server: Webduino/1.7
+Access-Control-Allow-Origin: *
+Content-Type: text/xml
+
+<SOAP-ENV:Envelope xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ZSI="http://www.zolera.com/schemas/ZSI/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><SOAP-ENV:Header></SOAP-ENV:Header><SOAP-ENV:Body xmlns:ns1="http://opcfoundation.org/webservices/XMLDA/1.0/"><ns1:WriteResponse><ns1:WriteResult ClientRequestHandle="ZSI_MWKaPWbd8M_Write" RcvTime="2015-04-07T13:36:29.001Z" ReplyTime="2015-04-07T13:36:29.001Z" ServerState="running"></ns1:WriteResult><ns1:ItemList><ns1:Items ClientItemHandle="ZSI_MWKaPWbd8M_WriteItem_0" ItemName="e" ItemPath=""><ns1:Quality></ns1:Quality></ns1:Items></ns1:ItemList></ns1:WriteResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>
+_________________________________ Wed May 27 14:27:07 2015 REQUEST:
+<SOAP-ENV:Envelope xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ZSI="http://www.zolera.com/schemas/ZSI/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><SOAP-ENV:Header></SOAP-ENV:Header><SOAP-ENV:Body xmlns:ns1="http://opcfoundation.org/webservices/XMLDA/1.0/"><ns1:Write ReturnValuesOnReply="false"><ns1:Options ClientRequestHandle="ZSI_EuLzohFCrc_Write" LocaleID="en-us" ReturnErrorText="true" ReturnItemName="true" ReturnItemPath="true"></ns1:Options><ns1:ItemList><ns1:Items ClientItemHandle="ZSI_EuLzohFCrc_WriteItem_0" ItemName="f"><ns1:Value id="o7f6347aa5fd0" xsi:type="xsd:string">1</ns1:Value><ns1:Quality></ns1:Quality></ns1:Items></ns1:ItemList></ns1:Write></SOAP-ENV:Body></SOAP-ENV:Envelope>
+_________________________________ Wed May 27 14:27:08 2015 RESPONSE:
+200
+OK
+-------
+Server: Webduino/1.7
+Access-Control-Allow-Origin: *
+Content-Type: text/xml
+
+<SOAP-ENV:Envelope xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ZSI="http://www.zolera.com/schemas/ZSI/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><SOAP-ENV:Header></SOAP-ENV:Header><SOAP-ENV:Body xmlns:ns1="http://opcfoundation.org/webservices/XMLDA/1.0/"><ns1:WriteResponse><ns1:WriteResult ClientRequestHandle="ZSI_MWKaPWbd8M_Write" RcvTime="2015-04-07T13:36:29.001Z" ReplyTime="2015-04-07T13:36:29.001Z" ServerState="running"></ns1:WriteResult><ns1:ItemList><ns1:Items ClientItemHandle="ZSI_MWKaPWbd8M_WriteItem_0" ItemName="f" ItemPath=""><ns1:Quality></ns1:Quality></ns1:Items></ns1:ItemList></ns1:WriteResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>
+_________________________________ Wed May 27 14:27:12 2015 REQUEST:
+<SOAP-ENV:Envelope xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ZSI="http://www.zolera.com/schemas/ZSI/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><SOAP-ENV:Header></SOAP-ENV:Header><SOAP-ENV:Body xmlns:ns1="http://opcfoundation.org/webservices/XMLDA/1.0/"><ns1:Write ReturnValuesOnReply="false"><ns1:Options ClientRequestHandle="ZSI_EuLzohFCrc_Write" LocaleID="en-us" ReturnErrorText="true" ReturnItemName="true" ReturnItemPath="true"></ns1:Options><ns1:ItemList><ns1:Items ClientItemHandle="ZSI_EuLzohFCrc_WriteItem_0" ItemName="a"><ns1:Value id="o7f6347aa5fd0" xsi:type="xsd:string">1</ns1:Value><ns1:Quality></ns1:Quality></ns1:Items></ns1:ItemList></ns1:Write></SOAP-ENV:Body></SOAP-ENV:Envelope>
+_________________________________ Wed May 27 14:27:13 2015 RESPONSE:
+200
+OK
+-------
+Server: Webduino/1.7
+Access-Control-Allow-Origin: *
+Content-Type: text/xml
+
+<SOAP-ENV:Envelope xmlns:SOAP-ENC="http://schemas.xmlsoap.o-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ZSI="http://www.zolera.com/schemas/ZSI/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><SOAP-ENV:Header></SOAP-ENV:Header><SOAP-ENV:Body xmlns:ns1="http://opcfoundation.org/webservices/XMLDA/1.0/"><ns1:ReadResponse><ns1:ReadResult ClientRequestHandle="ZSI_Q6lJHACgRq_Read" RcvTime="2015-05-27T14:27:12.002Z" ReplyTime="2015-05-27T14:27:12.002Z" ServerState="running"></ns1:ReadResult><ns1:RItemList><ns1:Items ClientItemHandle="ZSI_Q6lJHACgRq_ReadItem_0" ItemName="breaker" ItemPath=""><ns1:Value id="o23337b8" xsi:type="xsd:int">1</ns1:Value><ns1:Quality LimitField="none" QualityField="good" VendorField="0"></ns1:Quality></ns1:Items></ns1:RItemList></ns1:ReadResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>
+_________________________________ Wed May 27 14:27:12 2015 REQUEST:
+<SOAP-ENV:Envelope xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ZSI="http://www.zolera.com/schemas/ZSI/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><SOAP-ENV:Header></SOAP-ENV:Header><SOAP-ENV:Body xmlns:ns1="http://opcfoundation.org/webservices/XMLDA/1.0/"><ns1:Read><ns1:Options ClientRequestHandle="ZSI_Q6lJHACgRq_Read" ReturnErrorText="true" ReturnItemName="true" ReturnItemPath="true"></ns1:Options><ns1:ItemList><ns1:Items ClientItemHandle="ZSI_Q6lJHACgRq_ReadItem_0" ItemName="flow"></ns1:Items></ns1:ItemList></ns1:Read></SOAP-ENV:Body></SOAP-ENV:Envelope>
+_________________________________ Wed May 27 14:27:12 2015 RESPONSE:
+200
+OK
+-------
+Date: Wed, 27 May 2015 19:27:12 GMT
+Content-Length: 910
+Content-Type: text/xml
+Server: Twisted 2.1.0
+
+<SOAP-ENV:Envelope xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ZSI="http://www.zolera.com/schemas/ZSI/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><SOAP-ENV:Header></SOAP-ENV:Header><SOAP-ENV:Body xmlns:ns1="http://opcfoundation.org/webservices/XMLDA/1.0/"><ns1:ReadResponse><ns1:ReadResult ClientRequestHandle="ZSI_Q6lJHACgRq_Read" RcvTime="2015-05-27T14:27:12.002Z" ReplyTime="2015-05-27T14:27:12.002Z" ServerState="running"></ns1:ReadResult><ns1:RItemList><ns1:Items ClientItemHandle="ZSI_Q6lJHACgRq_ReadItem_0" ItemName="flow" ItemPath=""><ns1:Value id="o314f2b8" xsi:type="xsd:float">90.000000</ns1:Value><ns1:Quality LimitField="none" QualityField="good" VendorField="0"></ns1:Quality></ns1:Items></ns1:RItemList></ns1:ReadResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>
+SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ZSI="http://www.zolera.com/schemas/ZSI/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><SOAP-ENV:Header></SOAP-ENV:Header><SOAP-ENV:Body xmlns:ns1="http://opcfoundation.org/webservices/XMLDA/1.0/"><ns1:Write ReturnValuesOnReply="false"><ns1:Options ClientRequestHandle="ZSI_EuLzohFCrc_Write" LocaleID="en-us" ReturnErrorText="true" ReturnItemName="true" ReturnItemPath="true"></ns1:Options><ns1:ItemList><ns1:Items ClientItemHandle="ZSI_EuLzohFCrc_WriteItem_0" ItemName="c"><ns1:Value id="o7f6347aa5fd0" xsi:type="xsd:string">1</ns1:Value><ns1:Quality></ns1:Quality></ns1:Items></ns1:ItemList></ns1:Write></SOAP-ENV:Body></SOAP-ENV:Envelope>
+_________________________________ Wed May 27 14:27:14 2015 RESPONSE:
+200
+OK
+-------
+Server: Webduino/1.7
+Access-Control-Allow-Origin: *
+Content-Type: text/xml
+
+<SOAP-ENV:Envelope xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ZSI="http://www.zolera.com/schemas/ZSI/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><SOAP-ENV:Header></SOAP-ENV:Header><SOAP-ENV:Body xmlns:ns1="http://opcfoundation.org/webservices/XMLDA/1.0/"><ns1:WriteResponse><ns1:WriteResult ClientRequestHandle="ZSI_MWKaPWbd8M_Write" RcvTime="2015-04-07T13:36:29.001Z" ReplyTime="2015-04-07T13:36:29.001Z" ServerState="running"></ns1:WriteResult><ns1:ItemList><ns1:Items ClientItemHandle="ZSI_MWKaPWbd8M_WriteItem_0" ItemName="c" ItemPath=""><ns1:Quality></ns1:Quality></ns1:Items></ns1:ItemList></ns1:WriteResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>
+_________________________________ Wed May 27 14:27:14 2015 REQUEST:
+<SOAP-ENV:Envelope xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ZSI="http://www.zolera.com/schemas/ZSI/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><SOAP-ENV:Header></SOAP-ENV:Header><SOAP-ENV:Body xmlns:ns1="http://opcfoundation.org/webservices/XMLDA/1.0/"><ns1:Write ReturnValuesOnReply="false"><ns1:Options ClientRequestHandle="ZSI_EuLzohFCrc_Write" LocaleID="en-us" ReturnErrorText="true" ReturnItemName="true" ReturnItemPath="true"></ns1:Options><ns1:ItemList><ns1:Items ClientItemHandle="ZSI_EuLzohFCrc_WriteItem_0" ItemName="d"><ns1:Value id="o7f6347aa5fd0" xsi:type="xsd:string">1</ns1:Value><ns1:Quality></ns1:Quality></ns1:Items></ns1:ItemList></ns1:Write></SOAP-ENV:Body></SOAP-ENV:Envelope>
+_________________________________ Wed May 27 14:27:14 2015 RESPONSE:
+200
+OK
+-------
+Server: Webduino/1.7
+Access-Control-Allow-Origin: *
+Content-Type: text/xml
+
+<SOAP-ENV:Envelope xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ZSI="http://www.zolera.com/schemas/ZSI/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><SOAP-ENV:Header></SOAP-ENV:Header><SOAP-ENV:Body xmlns:ns1="http://opcfoundation.org/webservices/XMLDA/1.0/"><ns1:WriteResponse><ns1:WriteResult ClientRequestHandle="ZSI_MWKaPWbd8M_Write" RcvTime="2015-04-07T13:36:29.001Z" ReplyTime="2015-04-07T13:36:29.001Z" ServerState="running"></ns1:WriteResult><ns1:ItemList><ns1:Items ClientItemHandle="ZSI_MWKaPWbd8M_WriteItem_0" ItemName="d" ItemPath=""><ns1:Quality></ns1:Quality></ns1:Items></ns1:ItemList></ns1:WriteResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>
+_________________________________ Wed May 27 14:27:15 2015 REQUEST:
+<SOAP-ENV:Envelope xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ZSI="http://www.zolera.com/schemas/ZSI/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><SOAP-ENV:Header></SOAP-ENV:Header><SOAP-ENV:Body xmlns:ns1="http://opcfoundation.org/webservices/XMLDA/1.0/"><ns1:Write ReturnValuesOnReply="false"><ns1:Options ClientRequestHandle="ZSI_EuLzohFCrc_Write" LocaleID="en-us" ReturnErrorText="true" ReturnItemName="true" ReturnItemPath="true"></ns1:Options><ns1:ItemList><ns1:Items ClientItemHandle="ZSI_EuLzohFCrc_WriteItem_0" ItemName="e"><ns1:Value id="o7f6347aa5fd0" xsi:type="xsd:string">1</ns1:Value><ns1:Quality></ns1:Quality></ns1:Items></ns1:ItemList></ns1:Write></SOAP-ENV:Body></SOAP-ENV:Envelope>
+_________________________________ Wed May 27 14:27:15 2015 RESPONSE:
+200
+OK
+-------
+Server: Webduino/1.7
+Access-Control-Allow-Origin: *
+Content-Type: text/xml
+
+<SOAP-ENV:Envelope xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ZSI="http://www.zolera.com/schemas/ZSI/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><SOAP-ENV:Header></SOAP-ENV:Header><SOAP-ENV:Body xmlns:ns1="http://opcfoundation.org/webservices/XMLDA/1.0/"><ns1:WriteResponse><ns1:WriteResult ClientRequestHandle="ZSI_MWKaPWbd8M_Write" RcvTime="2015-04-07T13:36:29.001Z" ReplyTime="2015-04-07T13:36:29.001Z" ServerState="running"></ns1:WriteResult><ns1:ItemList><ns1:Items ClientItemHandle="ZSI_MWKaPWbd8M_WriteItem_0" ItemName="e" ItemPath=""><ns1:Quality></ns1:Quality></ns1:Items></ns1:ItemList></ns1:WriteResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>
+_________________________________ Wed May 27 14:27:15 2015 REQUEST:
+<SOAP-ENV:Envelope xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ZSI="http://www.zolera.com/schemas/ZSI/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><SOAP-ENV:Header></SOAP-ENV:Header><SOAP-ENV:Body xmlns:ns1="http://opcfoundation.org/webservices/XMLDA/1.0/"><ns1:Write ReturnValuesOnReply="false"><ns1:Options ClientRequestHandle="ZSI_EuLzohFCrc_Write" LocaleID="en-us" ReturnErrorText="true" ReturnItemName="true" ReturnItemPath="true"></ns1:Options><ns1:ItemList><ns1:Items ClientItemHandle="ZSI_EuLzohFCrc_WriteItem_0" ItemName="f"><ns1:Value id="o7f6347aa5cb0" xsi:type="xsd:string">0</ns1:Value><ns1:Quality></ns1:Quality></ns1:Items></ns1:ItemList></ns1:Write></SOAP-ENV:Body></SOAP-ENV:Envelope>
+_________________________________ Wed May 27 14:27:16 2015 RESPONSE:
+200
+OK
+-------
+Server: Webduino/1.7
+Access-Control-Allow-Origin: *
+Content-Type: text/xml
+
+<SOAP-ENV:Envelope xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ZSI="http://www.zolera.com/schemas/ZSI/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><SOAP-ENV:Header></SOAP-ENV:Header><SOAP-ENV:Body xmlns:ns1="http://opcfoundation.org/webservices/XMLDA/1.0/"><ns1:WriteResponse><ns1:WriteResult ClientRequestHandle="ZSI_MWKaPWbd8M_Write" RcvTime="2015-04-07T13:36:29.001Z" ReplyTime="2015-04-07T13:36:29.001Z" ServerState="running"></ns1:WriteResult><ns1:ItemList><ns1:Items ClientItemHandle="ZSI_MWKaPWbd8M_WriteItem_0" ItemName="f" ItemPath=""><ns1:Quality></ns1:Quality></ns1:Items></ns1:ItemList></ns1:WriteResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>
