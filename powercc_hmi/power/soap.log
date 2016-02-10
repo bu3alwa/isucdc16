@@ -1,0 +1,36 @@
+_________________________________ Mon Feb  8 15:57:22 2016 REQUEST:
+<SOAP-ENV:Envelope xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ZSI="http://www.zolera.com/schemas/ZSI/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><SOAP-ENV:Header></SOAP-ENV:Header><SOAP-ENV:Body xmlns:ns1="http://opcfoundation.org/webservices/XMLDA/1.0/"><ns1:Read><ns1:Options ClientRequestHandle="ZSI_gctuEIIBBC_Read" ReturnErrorText="true" ReturnItemName="true" ReturnItemPath="true"></ns1:Options><ns1:ItemList><ns1:Items ClientItemHandle="ZSI_gctuEIIBBC_ReadItem_0" ItemName="gen2_breaker"></ns1:Items></ns1:ItemList></ns1:Read></SOAP-ENV:Body></SOAP-ENV:Envelope>
+_________________________________ Mon Feb  8 15:57:22 2016 RESPONSE:
+200
+OK
+-------
+Date: Mon, 08 Feb 2016 21:57:21 GMT
+Content-Length: 900
+Content-Type: text/xml
+Server: Twisted 2.1.0
+
+<SOAP-ENV:Envelope xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ZSI="http://www.zolera.com/schemas/ZSI/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><SOAP-ENV:Header></SOAP-ENV:Header><SOAP-ENV:Body xmlns:ns1="http://opcfoundation.org/webservices/XMLDA/1.0/"><ns1:ReadResponse><ns1:ReadResult ClientRequestHandle="ZSI_gctuEIIBBC_Read" RcvTime="2016-02-08T15:57:21Z" ReplyTime="2016-02-08T15:57:21Z" ServerState="running"></ns1:ReadResult><ns1:RItemList><ns1:Items ClientItemHandle="ZSI_gctuEIIBBC_ReadItem_0" ItemName="gen2_breaker" ItemPath=""><ns1:Value id="o85bad28" xsi:type="xsd:int">1</ns1:Value><ns1:Quality LimitField="none" QualityField="good" VendorField="0"></ns1:Quality></ns1:Items></ns1:RItemList></ns1:ReadResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>
+_________________________________ Mon Feb  8 15:57:22 2016 REQUEST:
+<SOAP-ENV:Envelope xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ZSI="http://www.zolera.com/schemas/ZSI/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><SOAP-ENV:Header></SOAP-ENV:Header><SOAP-ENV:Body xmlns:ns1="http://opcfoundation.org/webservices/XMLDA/1.0/"><ns1:Read><ns1:Options ClientRequestHandle="ZSI_gctuEIIBBC_Read" ReturnErrorText="true" ReturnItemName="true" ReturnItemPath="true"></ns1:Options><ns1:ItemList><ns1:Items ClientItemHandle="ZSI_gctuEIIBBC_ReadItem_0" ItemName="gen2_generation"></ns1:Items></ns1:ItemList></ns1:Read></SOAP-ENV:Body></SOAP-ENV:Envelope>
+_________________________________ Mon Feb  8 15:57:22 2016 RESPONSE:
+200
+OK
+-------
+Date: Mon, 08 Feb 2016 21:57:21 GMT
+Content-Length: 909
+Content-Type: text/xml
+Server: Twisted 2.1.0
+
+<SOAP-ENV:Envelope xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ZSI="http://www.zolera.com/schemas/ZSI/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><SOAP-ENV:Header></SOAP-ENV:Header><SOAP-ENV:Body xmlns:ns1="http://opcfoundation.org/webservices/XMLDA/1.0/"><ns1:ReadResponse><ns1:ReadResult ClientRequestHandle="ZSI_gctuEIIBBC_Read" RcvTime="2016-02-08T15:57:21Z" ReplyTime="2016-02-08T15:57:21Z" ServerState="running"></ns1:ReadResult><ns1:RItemList><ns1:Items ClientItemHandle="ZSI_gctuEIIBBC_ReadItem_0" ItemName="gen2_generation" ItemPath=""><ns1:Value id="ob6a72608" xsi:type="xsd:string">100</ns1:Value><ns1:Quality LimitField="none" QualityField="good" VendorField="0"></ns1:Quality></ns1:Items></ns1:RItemList></ns1:ReadResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>
+_________________________ Mon Feb  8 15:57:22 2016 REQUEST:
+<SOAP-ENV:Envelope xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ZSI="http://www.zolera.com/schemas/ZSI/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><SOAP-EAP-ENV:Header></SOAP-ENV:Header><SOAP-ENV:Body xmlns:ns1="http://opcfoundation.org/webservices/XMLDA/1.0/"><ns1:Read><ns1:Options ClientRequestHandle="ZSI_0hLrZkQAwb_Read" ReturnErrorText="true" ReturnItemName="true" ReturnItemPath="true"></ns1:Options><ns1:ItemList><ns1:Items ClientItemHandle="ZSI_0hLrZkQAwb_ReadItem_0" ItemName="relay1_flow"></ns1:Items></ns1:ItemList></ns1:Read></SOAP-ENV:Body></SOAP-ENV:Envelope>
+_________________________________ Mon Feb  8 15:57:22 2016 RESPONSE:
+200
+OK
+-------
+Date: Mon, 08 Feb 2016 21:57:21 GMT
+Content-Length: 901
+Content-Type: text/xml
+Server: Twisted 2.1.0
+
+<SOAP-ENV:Envelope xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ZSI="http://www.zolera.com/schemas/ZSI/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><SOAP-ENV:Header></SOAP-ENV:Header><SOAP-ENV:Body xmlns:ns1="http://opcfoundation.org/webservices/XMLDA/1.0/"><ns1:ReadResponse><ns1:ReadResult ClientRequestHandle="ZSI_0hLrZkQAwb_Read" RcvTime="2016-02-08T15:57:21Z" ReplyTime="2016-02-08T15:57:21Z" ServerState="running"></ns1:ReadResult><ns1:RItemList><ns1:Items ClientItemHandle="ZSI_0hLrZkQAwb_ReadItem_0" ItemName="relay1_flow" ItemPath=""><ns1:Value id="o98b803c" xsi:type="xsd:int">100</ns1:Value><ns1:Quality LimitField="none" QualityField="good" VendorField="0"></ns1:Quality></ns1:Items></ns1:RItemList></ns1:ReadResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>
