@@ -7,7 +7,7 @@ $systems = array(
     "gen2_breaker" => "gen2_breaker",
     "gen2_generation" => "gen2_generation",
     "relay2_breaker" => "relay2_breaker"
-)
+);
 
 
 $var = $_GET['var'];
