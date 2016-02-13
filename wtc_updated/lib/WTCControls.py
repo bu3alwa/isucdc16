@@ -1,8 +1,7 @@
 import WTCControls_basic as wtc
 import WTCShapes as wtcsh
 import wx
-import Process
-	
+
 class GenericHMIObject:
 	def __init__(self, name, masterTag):
 		self.masterTag = masterTag

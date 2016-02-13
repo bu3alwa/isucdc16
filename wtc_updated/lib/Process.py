@@ -38,8 +38,8 @@ class ProcessObject:
 	def Online(self):
 		return self.state
         
-    def CheckFailed():
-        return self.failValue == self.cur
+	def CheckFailed(self):
+		return self.failValue == self.cur
 
 
 
