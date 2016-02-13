@@ -10,8 +10,10 @@ from PyOPC.OPCContainers import *
 		return eval(compile(node, '<string>', mode='eval'))
 	return CheckFailed'''
     
-def checkFailed(failValue, cur):
-    return failValue == cur
+def create_state_compare(failValue):
+	def CheckFailed(cur):
+		return failValue == cur
+	return CheckFailed
 
 class ProcessObject:
 	def __init__(self, name, failValue, depends, next_list, cur=0, state=True):
@@ -22,13 +24,13 @@ class ProcessObject:
 		self.depends = []
 		self.failValue = failValue
 		self.state = state
-		#self.checkFailed = create_state_compare(cmp_op, self.failValue)
+		self.checkFailed = create_state_compare(self.failValue)
 		self.cur = cur
 		self.dirty = False
 
 	def UpdateState(self, cur):
 		self.cur = cur
-		if not self.checkFailed(self.failValue, cur):
+		if not self.checkFailed(cur):
 			self.state = True
 		else:
 			self.state = False
