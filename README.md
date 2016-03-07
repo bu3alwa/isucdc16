@@ -1,3 +1,3 @@
 Iseage 2016 ISU Competition
 
-Source Code for the servers and clients. Patching nessecary for both servers and clients.
+Patches of the source code of ISEage competition. Made public after competition.
